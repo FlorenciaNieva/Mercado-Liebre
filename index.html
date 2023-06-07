@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Links de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d0ec7b50c3.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado con barra de navegación -->
+    <header>
+        <nav>
+            <div class="en-linea espacio">
+                <figure class="logo">
+                    <img src="img/mercado-liebre.png" alt="Logo de Mercado Liebre">
+                </figure>
+                <p>
+                    <a href="">
+                        Todas las opciones en un solo lugar
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="en-linea espacio">
+                <div>
+                    <p>
+                        <a href="">
+                            Todos los productos
+                        </a>
+                    </p>
+                </div>
+                <ul class="en-linea lista-navegacion">
+                    <li>
+                        <a href="">
+                            Creá tu cuenta
+                            <i class="fa-solid fa-address-card"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Mis compras
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <!-- Boton Ingresar -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Ingresá
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </button>
+                        <!-- Modal de Registro-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Ingresá tus datos</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Formulario de Registro -->
+                                        <form>
+                                            <div class="row mb-3">
+                                                <label for="inputtext" class="col-sm-2 col-form-label">Nombre</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="inputtext">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" class="form-control" id="inputEmail3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Ingresar</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
