@@ -5,7 +5,7 @@
 }
 
 header{
-    padding: 20px;
+    padding: 10px 10px 0px 10px;
     background-color: #fbbc02;
 }
 
@@ -28,7 +28,7 @@ img {
 }
 
 .logo{
-    width: 300px;
+    width: 250px;
 }
 
 .en-linea {
@@ -44,3 +44,18 @@ img {
     padding: 0px 10px;
 }
 
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo{
+    padding: 15px;
+}
+.contenedor-tarjetas{
+    flex-wrap: wrap;
+}
+.tarjetas{
+    margin: 10px;
+}
