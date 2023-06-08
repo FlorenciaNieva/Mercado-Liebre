@@ -44,6 +44,10 @@ img {
     padding: 0px 10px;
 }
 
+.margen-derecho{
+    margin-right: 15px;
+}
+
 .centrado{
     display: flex;
     justify-content: center;
@@ -53,9 +57,15 @@ img {
 .subtitulo{
     padding: 15px;
 }
+
 .contenedor-tarjetas{
     flex-wrap: wrap;
 }
+
 .tarjetas{
     margin: 10px;
+}
+
+.linea{
+    border-left: 1px solid rgb(180, 178, 178);
 }
