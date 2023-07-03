@@ -1,9 +1,12 @@
 # Mercado Liebre
 Inspirado en **MERCADO LIBRE** :shopping:
 
+:warning:**página web diseñada exclusivamente para la versión de escritorio**:warning:
+
 Este proyecto tiene el fin de mejorar mis habilidades con el *Framework Bootstrap* en la maquetación.
 
-![Badge en Desarollo](https://img.shields.io/badge/ESTADO-EN%20DESAROLLO-green)
+##  Link
+https://mercadoliebre-fn.netlify.app/
 
 ## Tecnologías y herramientas utilizadas
 
